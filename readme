@@ -1,0 +1,5 @@
+                              hadoop-word-counter
+
+count words and phrases in text.
+
+hadoop is used for parsing multiple files.
