@@ -3,3 +3,13 @@
 count words and phrases in text.
 
 hadoop is used for parsing multiple files.
+
+usage:
+
+  - count phrases:
+
+    hadoop jar PhraseCounter.jar gemma.org.PhraseCounter.PhraseCounter [inputDataDirectory] [outputDataDirectory] [phrase_length]
+
+  - count words:
+
+    hadoop jar WordCounter.jar gemma.org.WordCounter.WordCounter [inputDataDirectory] [outputDataDirectory] ["word1" "word2" "word3" …]
